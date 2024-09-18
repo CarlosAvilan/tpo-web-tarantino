@@ -1,87 +1,155 @@
-
-/* body {
-    background-image: url(./images/Fondo.jpg);
-    background-size: 100%;
-} */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
 
 /* navbar */
 .header-nav {
-    width: 100%;
-    height: 80px;
-    padding: 10px 20px 10px 20px;
-    border-bottom: 2px solid #000;
-    margin-bottom: 20px;
+  width: 100%;
+  height: 80px;
+  padding: 10px 20px 10px 20px;
+  border-bottom: 2px solid #000;
+  margin-bottom: 20px;
 }
 
 .header-nav nav {
-    display: flex;
-    height: 100%;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
+  display: flex;
+  height: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .header-nav nav div {
-    height: 100%;
+  height: 100%;
+  margin-right: 20px;
 }
 
 .buttons-nav {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    list-style: none;
-    margin-left: 50px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  list-style: none;
+  margin-left: 50px;
 }
 /* fin navbar */
 
 /* seccion historia */
 #historia {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 0 20px 0 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 20px 0 20px;
 }
 
 .header-article {
-    width: 70%;
+  width: 70%;
 }
 
 .img-history-container {
-    width: 25%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .img-history-container img {
-    width: 100%;
+  width: 100%;
 }
 /* fin seccion historia */
 
 /* seccion filmografía */
 
 #peliculas {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    padding: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 10px;
 }
 
 .peliculas-en-linea {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
 }
 
 .peliculas-en-linea article {
-    width: 100%;
-    justify-content: center;
-    margin: 20px;
+  width: 100%;
+  justify-content: center;
+  margin: 20px;
 }
 
 .poster-peliculas {
-    height: 100px;
+  height: 100px;
 }
 
 /* fin seccion filmografía */
+
+/* seccion proyectos */
+/* --- */
+/* fin seccion proyectos */
+
+/* seccion libros */
+/* --- */
+/* fin seccion libros */
+
+/* seccion noticias */
+/* --- */
+/* fin seccion noticias */
+
+/* seccion reconocimiento */
+#reconocimientos {
+  text-align: center;
+  padding: 40px 0;
+}
+
+#reconocimientos h2 {
+  font-size: 2.5em;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.reconocimientos-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.reconocimiento {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+  text-align: left;
+}
+
+.reconocimiento-link {
+  text-decoration: none;
+}
+
+.reconocimiento h3 {
+  font-size: 1.2em;
+  color: #ff6347; /* Tomate, un color vibrante */
+  margin-bottom: 10px;
+}
+
+.reconocimiento p {
+  font-size: 1em;
+  color: #666;
+  line-height: 1.5;
+}
+
+.reconocimiento:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+/* fin seccion reconocimiento */
+
+/* seccion creditos */
+/* --- */
+/* fin seccion creditos */
