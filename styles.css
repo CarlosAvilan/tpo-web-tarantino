@@ -67,6 +67,7 @@ body {
   flex-direction: column;
   flex-wrap: wrap;
   padding: 10px;
+  /* background-image: url(images/FondoResDogs.jpg); */
 }
 
 .peliculas-en-linea {
@@ -93,7 +94,29 @@ body {
 /* fin seccion proyectos */
 
 /* seccion libros */
-/* --- */
+#libros {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.libros-en-linea {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.libros-en-linea article {
+  width: 100%;
+  justify-content: center;
+  margin: 20px;
+}
+
+.tapa-libros {
+  height: 100px;
+}
 /* fin seccion libros */
 
 /* seccion noticias */
@@ -114,6 +137,7 @@ body {
 
 .reconocimientos-container {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
