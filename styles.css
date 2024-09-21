@@ -120,6 +120,12 @@ body {
 /* fin seccion libros */
 
 /* seccion noticias */
+
+.ultimas-noticias{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
 /* --- */
 /* fin seccion noticias */
 
