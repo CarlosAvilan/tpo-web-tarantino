@@ -25,6 +25,8 @@ body {
 .header-nav nav div {
   height: 100%;
   margin-right: 20px;
+  border-radius: 50%;
+  overflow: hidden;
 }
 
 .buttons-nav {
@@ -181,5 +183,34 @@ body {
 /* fin seccion reconocimiento */
 
 /* seccion creditos */
-/* --- */
-/* fin seccion creditos */
+/* #creditos {
+  display: flex;
+  flex-direction: column;
+} */
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.footer-en-linea {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.creditos-en-linea {
+  list-style-type: none;
+  display: flex;
+  width: 35%;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.footer-image {
+  width: 65%;
+  max-width: 600px;
+  margin-left: 60px;
+}
