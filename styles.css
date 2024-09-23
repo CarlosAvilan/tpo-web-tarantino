@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: Arial, sans-serif; /*¿Hay que usar Google fonts?*/
   background-color: #f4f4f4;
   margin: 0;
   padding: 20px;
@@ -42,25 +42,51 @@ body {
 #historia {
   display: flex;
   flex-direction: row;
+  box-sizing: border-box;
   justify-content: space-between;
   padding: 0 20px 0 20px;
 }
 
+header h2 {
+  margin-bottom: 30px;
+}
+
+.header-title {
+  color: #000;
+  font-size: 20px;
+}
+
 .header-article {
   width: 70%;
+  text-align: justify;
 }
 
 .img-history-container {
   width: 25%;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
 .img-history-container img {
   width: 100%;
+  height: auto;
+}
+
+.leyenda-foto {
+  margin-top: 10px;
+  font-size: 14px;
+  text-align: justify;
+  width: 100%;
+
 }
 /* fin seccion historia */
+
+/*estilo unificado para todos los títulos de elementos de las secciones*/
+h3 {
+  color: #ff6347;
+}
 
 /* seccion filmografía */
 
@@ -88,7 +114,6 @@ body {
 .poster-peliculas {
   height: 100px;
 }
-
 /* fin seccion filmografía */
 
 /* seccion proyectos */
@@ -125,8 +150,12 @@ body {
 
 .ultimas-noticias{
   display: flex;
-  justify-content: space-between;
-  gap: 20px;
+  flex-direction: column;
+}
+
+.ultimas-noticias article {
+  margin: 10px 30px;
+  text-align: justify;
 }
 /* --- */
 /* fin seccion noticias */
@@ -183,13 +212,11 @@ body {
 /* fin seccion reconocimiento */
 
 /* seccion creditos */
-/* #creditos {
-  display: flex;
-  flex-direction: column;
-} */
 
 footer {
   display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
   justify-content: center;
   padding: 20px;
 }
@@ -209,8 +236,12 @@ footer {
   gap: 30px;
 }
 
+.sin-subrayado {
+  text-decoration: none;
+}
+
 .footer-image {
-  width: 65%;
+  /* width: 65%; */
   max-width: 600px;
   margin-left: 60px;
 }
