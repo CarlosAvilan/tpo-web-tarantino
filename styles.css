@@ -118,7 +118,20 @@ h3 {
 /* fin seccion filmografía */
 
 /* seccion proyectos */
-/* --- */
+#proyectos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.listas {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
 /* fin seccion proyectos */
 
 /* seccion libros */
