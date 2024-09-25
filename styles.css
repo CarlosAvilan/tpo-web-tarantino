@@ -1,40 +1,99 @@
 body {
-  font-family: Arial, sans-serif; /*¿Hay que usar Google fonts?*/
+  font-family: Arial, sans-serif;
   background-color: #f4f4f4;
   margin: 0;
-  padding: 20px;
+  padding: 0 20px 0 20px;
+  font-family: "Capriola", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
+/*estilos compartidos*/
+
+h3 {
+  color: #ff6347;
+  margin: 0;
+  font-size: 1.6em;
+}
+
+h2 {
+  color: #333;
+  margin: 0;
+  font-size: 1.8em;
+}
+
+h1 {
+  color: #333;
+  margin: 0;
+  font-size: 2em;
+}
+
+/* ----- */
+
 /* navbar */
-.header-nav {
-  width: 100%;
-  height: 80px;
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
   padding: 10px 20px 10px 20px;
   border-bottom: 2px solid #000;
   margin-bottom: 20px;
 }
 
-.header-nav nav {
+.nav-img-title-container {
   display: flex;
-  height: 100%;
   flex-direction: row;
   align-items: center;
-  justify-content: flex-start;
+  gap: 50px;
 }
 
-.header-nav nav div {
-  height: 100%;
-  margin-right: 20px;
+.nav-img-title-container div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
   border-radius: 50%;
   overflow: hidden;
+  width: 100px;
+}
+
+.nav-img-title-container div img {
+  width: 100%;
+  height: auto;
+}
+
+.nav-img-title-container h1 {
+  text-wrap: nowrap;
 }
 
 .buttons-nav {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   gap: 20px;
   list-style: none;
-  margin-left: 50px;
+}
+
+.buttons-nav li {
+  background-color: #8eb195;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  text-wrap: nowrap;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+
+  &:active {
+    transform: scale(0.9);
+  }
+}
+
+.buttons-nav a {
+  text-decoration: none;
+  color: #ffffff;
 }
 /* fin navbar */
 
@@ -79,15 +138,8 @@ header h2 {
   font-size: 14px;
   text-align: justify;
   width: 100%;
-
 }
 /* fin seccion historia */
-
-/*estilo unificado para todos los títulos de elementos de las secciones*/
-
-h3 {
-  color: #ff6347;
-}
 
 /* seccion filmografía */
 
@@ -96,7 +148,6 @@ h3 {
   flex-direction: column;
   flex-wrap: wrap;
   padding: 10px;
-  /* background-image: url(images/FondoResDogs.jpg); */
 }
 
 .peliculas-en-linea {
@@ -162,7 +213,7 @@ h3 {
 
 /* seccion noticias */
 
-.ultimas-noticias{
+.ultimas-noticias {
   display: flex;
   flex-direction: column;
 }
@@ -176,31 +227,26 @@ h3 {
 
 /* seccion reconocimiento */
 #reconocimientos {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 40px 0;
-}
-
-#reconocimientos h2 {
-  font-size: 2.5em;
-  color: #333;
-  margin-bottom: 30px;
+  gap: 50px;
 }
 
 .reconocimientos-container {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
+  gap: 50px;
 }
 
 .reconocimiento {
   background-color: #fff;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
   padding: 20px;
-  width: 300px;
   text-align: left;
+  flex: 1;
 }
 
 .reconocimiento-link {
@@ -208,8 +254,7 @@ h3 {
 }
 
 .reconocimiento h3 {
-  font-size: 1.2em;
-  color: #ff6347; /* Tomate, un color vibrante */
+  color: #ff6347;
   margin-bottom: 10px;
 }
 
@@ -255,7 +300,69 @@ footer {
 }
 
 .footer-image {
-  /* width: 65%; */
   max-width: 600px;
   margin-left: 60px;
+}
+
+@media screen and (max-width: 1279px) {
+  /* navbar */
+  .nav-container {
+    flex-direction: column;
+  }
+
+  .nav-img-title-container div {
+    width: 80px;
+  }
+  /* ----- */
+}
+
+@media screen and (max-width: 768px) {
+  /*estilos compartidos*/
+  h3 {
+    font-size: 1.2em;
+  }
+
+  h2 {
+    font-size: 1.4em;
+  }
+
+  h1 {
+    font-size: 1.6em;
+  }
+  /* ----- */
+
+  /* navbar */
+  .nav-img-title-container div {
+    width: 60px;
+  }
+
+  .buttons-nav li {
+    padding: 5px 10px;
+  }
+  .buttons-nav a {
+    font-size: 0.8em;
+  }
+  /* ----- */
+
+  /* seccion reconocimiento */
+  .reconocimientos-container {
+    flex-direction: column;
+  }
+  /* ----- */
+}
+
+@media screen and (max-width: 480px) {
+  /*estilos compartidos*/
+  h3 {
+    font-size: 1em;
+  }
+
+  h2 {
+    font-size: 1.2em;
+  }
+
+  h1 {
+    font-size: 1.4em;
+  }
+  /* ----- */
 }

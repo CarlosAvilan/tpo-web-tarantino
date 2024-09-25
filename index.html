@@ -1,256 +1,614 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>El rincón de Tarantino</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header class="header-nav">
-        <nav>
-            <div>
-                <img src="images/tarantinologo.jpg" alt="Logo del sitio web" height="85">
-            </div>
-            <h1>El rincón de Tarantino</h1>
-            <ul class="buttons-nav">
-                <li><a href="#historia">Su historia</a></li>
-                <li><a href="#filmografia">Filmografía</a></li>
-                <li><a href="#proyectos">Otros proyectos</a></li>
-                <li><a href="#libros">Libros</a></li>
-                <li><a href="#noticias">Noticias</a></li>                
-                <li><a href="#reconocimientos">Principales reconocimientos</a></li>
-                <li><a href="#creditos">Créditos</a></li>
-            </ul>     
-        </nav>        
-    </header>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Capriola&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="nav-container">
+      <div class="nav-img-title-container">
+        <div>
+          <img
+            src="images/tarantinologo.jpg"
+            alt="Logo del sitio web"
+            height="85"
+          />
+        </div>
+        <h1>El rincón de Tarantino</h1>
+      </div>
+      <ul class="buttons-nav">
+        <li><a href="#historia">Historia</a></li>
+        <li><a href="#filmografia">Filmografía</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#libros">Libros</a></li>
+        <li><a href="#noticias">Noticias</a></li>
+        <li><a href="#reconocimientos">Reconocimientos</a></li>
+        <li><a href="#creditos">Créditos</a></li>
+      </ul>
+    </nav>
     <section id="historia">
-        <div class="header-article">
-            <header>
-                <h2>Su historia</h2>
-            </header>
-            <article>
-                <header>
-                    <h3 class="header-title">Fanático del cine: de la videotienda a la silla de director</h3>
-                </header>
-                <p>Quentin Tarantino es un reconocido director, guionista y productor de cine estadounidense, famoso por su estilo narrativo no lineal, diálogos ingeniosos y uso estilizado de la violencia. Nació el 27 de marzo de 1963 en Knoxville, Tennessee, y creció en Los Ángeles, donde desarrolló su amor por el cine. Desde joven, mostró un gran interés por el séptimo arte, trabajando en una tienda de alquiler de videos, lo que le permitió acceder a una vasta variedad de películas de diferentes géneros y estilos. Su conocimiento autodidacta del cine moldeó su particular enfoque como cineasta.</p>
-                <p>Tarantino irrumpió en la escena cinematográfica con su primer largometraje, Reservoir Dogs (1992), que fue aclamado por su originalidad y su intensa narrativa de crimen. Sin embargo, su verdadero salto a la fama llegó con Pulp Fiction (1994), que le valió la Palma de Oro en el Festival de Cannes y el Oscar al mejor guion original. Pulp Fiction redefinió el cine independiente en los años 90, con una estructura narrativa fragmentada y personajes icónicos, consolidando a Tarantino como uno de los directores más influyentes de su generación.</p>
-                <p>Su cine se caracteriza por homenajear géneros clásicos como el cine de samuráis, westerns, películas de explotación y cine negro. Obras como Kill Bill Vol. 1 y 2 (2003-2004), una fusión de artes marciales y western, e Inglourious Basterds (2009), una reinvención histórica de la Segunda Guerra Mundial, destacan su habilidad para reimaginar géneros y jugar con las expectativas del público. El estilo visual de Tarantino, junto con sus referencias a la cultura pop y sus diálogos memorables, lo han convertido en un cineasta de culto.</p>
-                <p>El director es conocido por sus colaboraciones con actores recurrentes como Samuel L. Jackson, Uma Thurman y Christoph Waltz, este último ganando dos premios Oscar bajo su dirección por sus papeles en Inglourious Basterds y Django Unchained (2012).</p>
-                <p>Tarantino ha declarado que planea retirarse después de dirigir diez películas, un número que está cerca de alcanzar. Su noveno film, Once Upon a Time in Hollywood (2019), es un homenaje a la época dorada de Hollywood y fue ampliamente elogiada, recibiendo múltiples nominaciones al Oscar. Con una carrera marcada por la innovación y el desafío a las convenciones cinematográficas, Tarantino se ha asegurado un lugar en la historia del cine como uno de los cineastas más icónicos y originales de las últimas décadas.</p>
-            </article>
-        </div>
-        <div class="img-history-container">
-            <img src="images/tarantinomain.jpg" alt="foto de Quentin Tarantino sosteniendo un premio Oscar" width="100">
-            <p class="leyenda-foto">Quentin Tarantino ha ganado dos premios Oscar por sus guiones originales y ha sido nominado tres veces como Mejor Director</p>
-        </div>
+      <div class="header-article">
+        <header>
+          <h2>Su historia</h2>
+        </header>
+        <article>
+          <header>
+            <h3 class="header-title">
+              Fanático del cine: de la videotienda a la silla de director
+            </h3>
+          </header>
+          <p>
+            Quentin Tarantino es un reconocido director, guionista y productor
+            de cine estadounidense, famoso por su estilo narrativo no lineal,
+            diálogos ingeniosos y uso estilizado de la violencia. Nació el 27 de
+            marzo de 1963 en Knoxville, Tennessee, y creció en Los Ángeles,
+            donde desarrolló su amor por el cine. Desde joven, mostró un gran
+            interés por el séptimo arte, trabajando en una tienda de alquiler de
+            videos, lo que le permitió acceder a una vasta variedad de películas
+            de diferentes géneros y estilos. Su conocimiento autodidacta del
+            cine moldeó su particular enfoque como cineasta.
+          </p>
+          <p>
+            Tarantino irrumpió en la escena cinematográfica con su primer
+            largometraje, Reservoir Dogs (1992), que fue aclamado por su
+            originalidad y su intensa narrativa de crimen. Sin embargo, su
+            verdadero salto a la fama llegó con Pulp Fiction (1994), que le
+            valió la Palma de Oro en el Festival de Cannes y el Oscar al mejor
+            guion original. Pulp Fiction redefinió el cine independiente en los
+            años 90, con una estructura narrativa fragmentada y personajes
+            icónicos, consolidando a Tarantino como uno de los directores más
+            influyentes de su generación.
+          </p>
+          <p>
+            Su cine se caracteriza por homenajear géneros clásicos como el cine
+            de samuráis, westerns, películas de explotación y cine negro. Obras
+            como Kill Bill Vol. 1 y 2 (2003-2004), una fusión de artes marciales
+            y western, e Inglourious Basterds (2009), una reinvención histórica
+            de la Segunda Guerra Mundial, destacan su habilidad para reimaginar
+            géneros y jugar con las expectativas del público. El estilo visual
+            de Tarantino, junto con sus referencias a la cultura pop y sus
+            diálogos memorables, lo han convertido en un cineasta de culto.
+          </p>
+          <p>
+            El director es conocido por sus colaboraciones con actores
+            recurrentes como Samuel L. Jackson, Uma Thurman y Christoph Waltz,
+            este último ganando dos premios Oscar bajo su dirección por sus
+            papeles en Inglourious Basterds y Django Unchained (2012).
+          </p>
+          <p>
+            Tarantino ha declarado que planea retirarse después de dirigir diez
+            películas, un número que está cerca de alcanzar. Su noveno film,
+            Once Upon a Time in Hollywood (2019), es un homenaje a la época
+            dorada de Hollywood y fue ampliamente elogiada, recibiendo múltiples
+            nominaciones al Oscar. Con una carrera marcada por la innovación y
+            el desafío a las convenciones cinematográficas, Tarantino se ha
+            asegurado un lugar en la historia del cine como uno de los cineastas
+            más icónicos y originales de las últimas décadas.
+          </p>
+        </article>
+      </div>
+      <div class="img-history-container">
+        <img
+          src="images/tarantinomain.jpg"
+          alt="foto de Quentin Tarantino sosteniendo un premio Oscar"
+          width="100"
+        />
+        <p class="leyenda-foto">
+          Quentin Tarantino ha ganado dos premios Oscar por sus guiones
+          originales y ha sido nominado tres veces como Mejor Director
+        </p>
+      </div>
     </section>
     <section id="peliculas">
-        <header>
-            <h2 id="filmografia">Filmografía</h2>
-        </header>
-        <div class="peliculas-en-linea">
-            <article>
-                <div>
-                    <img src="images/reservoirdogs.jpg" class="poster-peliculas" alt="poster de la películas Reservoirs Dogs" width="100">
-                </div>
-                <h3>Reservoir Dogs (1992)</h3>
-                <p>El primer largometraje de Quentin Tarantino es un thriller criminal que se ha convertido en un clásico de culto. La película narra la historia de un grupo de ladrones que, tras un fallido atraco a una joyería, sospechan que uno de ellos es un informante de la policía. La narrativa no lineal, los diálogos ingeniosos y la tensión psicológica se entrelazan con una violencia estilizada que caracteriza el cine de Tarantino. Con un elenco que incluye a Harvey Keitel, Steve Buscemi, Tim Roth y Michael Madsen, Reservoir Dogs destaca por su minimalismo, desarrollando gran parte de la trama en un solo escenario, y estableció a Tarantino como una nueva y audaz voz en el cine independiente de los años 90.</p>
-            </article>
-            <article>
-                <div>
-                    <img src="images/pulpfiction.jpg" class="poster-peliculas" alt="poster de la película Pulp Fiction" width="100">
-                </div>
-                <h3>Pulp Fiction (1994)</h3>
-                <p>Es una película emblemática que revolucionó el cine contemporáneo con su estructura narrativa no lineal y su mezcla de géneros. La cinta entrelaza varias historias sobre criminales, asesinos a sueldo, un boxeador y otros personajes marginales de Los Ángeles, explorando temas de redención, violencia y destino. Con diálogos ingeniosos y un estilo visual único, Pulp Fiction cuenta con actuaciones memorables de John Travolta, Samuel L. Jackson, Uma Thurman y Bruce Willis. La película fue aclamada por su originalidad y ganó la Palma de Oro en Cannes, además de recibir varios premios Oscar, consolidando a Tarantino como un director visionario en la industria del cine.</p>
-            </article>
-            <article>
-                <div>
-                    <img src="images/jackiebrown.jpg" class="poster-peliculas" alt="poster de la película Jackie Brown" width="100">
-                </div>
-                <h3>Jackie Brown (1997)</h3>
-                <p>Basada en la novela Rum Punch de Elmore Leonard, es un homenaje al cine de blaxploitation de los años 70. La trama sigue a Jackie Brown, una azafata interpretada por Pam Grier, que se ve atrapada entre un traficante de armas, interpretado por Samuel L. Jackson, y agentes federales que intentan atraparlo. Jackie elabora un plan para engañar a ambos bandos y quedarse con una gran suma de dinero. A diferencia de los anteriores trabajos de Tarantino, Jackie Brown es un thriller más pausado, centrado en el desarrollo de personajes complejos y menos en la violencia estilizada. La película fue elogiada por las actuaciones de Grier y Jackson, y destaca por su nostálgica banda sonora y sus diálogos mordaces.</p>
-            </article>
-        </div>
-        <div class="peliculas-en-linea">
-            <article>
-                <div>
-                    <img src="images/killbillvol12.jpg" class="poster-peliculas" alt="poster de la película Kill Bill, Volumes 1 y 2" width="100">
-                </div>
-                <h3>Kill Bill: Volumes 1 & 2 (2003-2004)</h3>
-                <p>Son dos partes de una épica venganza que rinde homenaje a las artes marciales, el western y el cine de explotación. La historia sigue a "La Novia" (Uma Thurman), una exasesina que despierta de un coma tras ser traicionada el día de su boda por su antiguo jefe, Bill, y su grupo de asesinos. La Novia busca venganza contra ellos, embarcándose en una sangrienta misión que la lleva de Estados Unidos a Japón. Mientras Volume 1 está marcado por combates coreografiados con una estética de anime y samuráis, Volume 2 se enfoca más en los personajes, la narrativa y el enfrentamiento final. Juntas, las películas destacan por su fusión de estilos visuales, diálogos intensos y una icónica banda sonora.</p>
-            </article>
-            <article>
-                <div>
-                    <img src="images/deathproof.jpg" class="poster-peliculas" alt="poster de la película Death Proof" width="100">
-                </div>
-                <h3>Death Proof (2007)</h3>
-                <p>Es un homenaje al cine de explotación y las películas de autos de los años 70, y forma parte del proyecto Grindhouse, una doble función que Tarantino realizó junto con Robert Rodríguez. El perturbado "Stuntman" Mike (Kurt Russell) utiliza su coche a prueba de todo para acechar y matar a jóvenes mujeres. La historia muestra a dos grupos de mujeres, cada uno enfrentándose a Mike en secuencias de alta tensión y acción automovilística. Death Proof es conocida por sus diálogos ingeniosos, personajes femeninos fuertes y por las emocionantes persecuciones de autos, con un estilo visual que evoca las películas de bajo presupuesto y las sesiones dobles de cine de décadas pasadas.</p>
-            </article>
-            <article>
-                <div>
-                    <img src="images/inglourious-basterds.jpg" class="poster-peliculas" alt="poster de la película Inglourious Basterds" width="100">
-                </div>
-                <h3>Inglourious Basterds (2009)</h3>
-                <p>Es una reinterpretación ficticia de la Segunda Guerra Mundial que mezcla acción, drama y humor negro. La película sigue dos tramas paralelas: un grupo de soldados estadounidenses judíos, liderados por el teniente Aldo Raine (Brad Pitt), conocidos como los "Bastardos", que cazan y asesinan a nazis en la Francia ocupada, y la historia de Shosanna Dreyfus (Mélanie Laurent), una joven judía que planea vengarse de los nazis tras la masacre de su familia. Con una actuación estelar de Christoph Waltz como el cruel coronel Hans Landa (un rol que lo llevó a ganar el Oscar), Inglourious Basterds se destaca por sus tensas escenas de diálogo, su estilo visual audaz y su original reescritura de la historia.</p>
-            </article>
-        </div>
-        <div class="peliculas-en-linea">
-            <article>
-                <div>
-                    <img src="images/djangofinal.jpg" class="poster-peliculas" alt="poster de la película Django Unchained" width="100">
-                </div>
-                <h3>Django Unchained (2012)</h3>
-                <p>Es un western ambientado en el sur de Estados Unidos antes de la Guerra Civil, que combina acción, humor negro y una cruda mirada al tema de la esclavitud. La película sigue a Django (Jamie Foxx), un esclavo liberado por el cazarrecompensas alemán Dr. King Schultz (Christoph Waltz), quien lo ayuda a rescatar a su esposa Broomhilda (Kerry Washington) de un brutal terrateniente llamado Calvin Candie (Leonardo DiCaprio). Aclamada por sus intensas interpretaciones, especialmente de Waltz y DiCaprio, Django Unchained se destaca por su violenta representación de la venganza y sus audaces diálogos, ganando dos premios Oscar, incluido el de mejor guion original para Tarantino.</p>
-            </article>
-            <article>
-                <div>
-                    <img src="images/hateful8.jpg" class="poster-peliculas" alt="poster de la película The Hateful Eight" width="100">
-                </div>
-                <h3>The Hateful Eight (2015)</h3>
-                <p>Es un western de misterio ambientado en la época posterior a la Guerra Civil estadounidense. Ocho personajes, incluidos cazarrecompensas, criminales y soldados, se refugian de una tormenta de nieve en una mercería aislada en Wyoming. A medida que las tensiones aumentan, la desconfianza entre ellos crece, desencadenando traiciones y violencia. Con un elenco coral que incluye a Samuel L. Jackson, Kurt Russell y Jennifer Jason Leigh, la película se destaca por su ritmo pausado, los diálogos afilados de Tarantino y su uso de la tensión claustrofóbica. Rodada en formato Ultra Panavision 70, The Hateful Eight es visualmente impresionante y profundiza en temas de venganza, racismo y justicia.</p>
-            </article>
-            <article>
-                <div>
-                    <img src="images/onceupon.jpg" class="poster-peliculas" alt="poster de la película Once Upon a Time... in Hollywood (2019)" width="100">
-                </div>
-                <h3>Once Upon a Time... in Hollywood (2019)</h3>
-                <p>Es una carta de amor a la era dorada de Hollywood a finales de los años 60, entrelazando la historia ficticia de Rick Dalton (Leonardo DiCaprio), un actor de televisión en decadencia, y su doble de acción Cliff Booth (Brad Pitt), con los trágicos eventos de la familia Manson. La película combina nostalgia, humor y tensión mientras Rick y Cliff navegan por una industria en cambio, al tiempo que Sharon Tate (Margot Robbie) brilla como una promesa emergente. Con su estilo visual evocador y referencias a la cultura pop de la época, ofrece una reinterpretación de la historia real con el toque único de Tarantino, culminando en un clímax violento y catártico.</p>
-            </article>
-        </div>
+      <header>
+        <h2 id="filmografia">Filmografía</h2>
+      </header>
+      <div class="peliculas-en-linea">
+        <article>
+          <div>
+            <img
+              src="images/reservoirdogs.jpg"
+              class="poster-peliculas"
+              alt="poster de la películas Reservoirs Dogs"
+              width="100"
+            />
+          </div>
+          <h3>Reservoir Dogs (1992)</h3>
+          <p>
+            El primer largometraje de Quentin Tarantino es un thriller criminal
+            que se ha convertido en un clásico de culto. La película narra la
+            historia de un grupo de ladrones que, tras un fallido atraco a una
+            joyería, sospechan que uno de ellos es un informante de la policía.
+            La narrativa no lineal, los diálogos ingeniosos y la tensión
+            psicológica se entrelazan con una violencia estilizada que
+            caracteriza el cine de Tarantino. Con un elenco que incluye a Harvey
+            Keitel, Steve Buscemi, Tim Roth y Michael Madsen, Reservoir Dogs
+            destaca por su minimalismo, desarrollando gran parte de la trama en
+            un solo escenario, y estableció a Tarantino como una nueva y audaz
+            voz en el cine independiente de los años 90.
+          </p>
+        </article>
+        <article>
+          <div>
+            <img
+              src="images/pulpfiction.jpg"
+              class="poster-peliculas"
+              alt="poster de la película Pulp Fiction"
+              width="100"
+            />
+          </div>
+          <h3>Pulp Fiction (1994)</h3>
+          <p>
+            Es una película emblemática que revolucionó el cine contemporáneo
+            con su estructura narrativa no lineal y su mezcla de géneros. La
+            cinta entrelaza varias historias sobre criminales, asesinos a
+            sueldo, un boxeador y otros personajes marginales de Los Ángeles,
+            explorando temas de redención, violencia y destino. Con diálogos
+            ingeniosos y un estilo visual único, Pulp Fiction cuenta con
+            actuaciones memorables de John Travolta, Samuel L. Jackson, Uma
+            Thurman y Bruce Willis. La película fue aclamada por su originalidad
+            y ganó la Palma de Oro en Cannes, además de recibir varios premios
+            Oscar, consolidando a Tarantino como un director visionario en la
+            industria del cine.
+          </p>
+        </article>
+        <article>
+          <div>
+            <img
+              src="images/jackiebrown.jpg"
+              class="poster-peliculas"
+              alt="poster de la película Jackie Brown"
+              width="100"
+            />
+          </div>
+          <h3>Jackie Brown (1997)</h3>
+          <p>
+            Basada en la novela Rum Punch de Elmore Leonard, es un homenaje al
+            cine de blaxploitation de los años 70. La trama sigue a Jackie
+            Brown, una azafata interpretada por Pam Grier, que se ve atrapada
+            entre un traficante de armas, interpretado por Samuel L. Jackson, y
+            agentes federales que intentan atraparlo. Jackie elabora un plan
+            para engañar a ambos bandos y quedarse con una gran suma de dinero.
+            A diferencia de los anteriores trabajos de Tarantino, Jackie Brown
+            es un thriller más pausado, centrado en el desarrollo de personajes
+            complejos y menos en la violencia estilizada. La película fue
+            elogiada por las actuaciones de Grier y Jackson, y destaca por su
+            nostálgica banda sonora y sus diálogos mordaces.
+          </p>
+        </article>
+      </div>
+      <div class="peliculas-en-linea">
+        <article>
+          <div>
+            <img
+              src="images/killbillvol12.jpg"
+              class="poster-peliculas"
+              alt="poster de la película Kill Bill, Volumes 1 y 2"
+              width="100"
+            />
+          </div>
+          <h3>Kill Bill: Volumes 1 & 2 (2003-2004)</h3>
+          <p>
+            Son dos partes de una épica venganza que rinde homenaje a las artes
+            marciales, el western y el cine de explotación. La historia sigue a
+            "La Novia" (Uma Thurman), una exasesina que despierta de un coma
+            tras ser traicionada el día de su boda por su antiguo jefe, Bill, y
+            su grupo de asesinos. La Novia busca venganza contra ellos,
+            embarcándose en una sangrienta misión que la lleva de Estados Unidos
+            a Japón. Mientras Volume 1 está marcado por combates coreografiados
+            con una estética de anime y samuráis, Volume 2 se enfoca más en los
+            personajes, la narrativa y el enfrentamiento final. Juntas, las
+            películas destacan por su fusión de estilos visuales, diálogos
+            intensos y una icónica banda sonora.
+          </p>
+        </article>
+        <article>
+          <div>
+            <img
+              src="images/deathproof.jpg"
+              class="poster-peliculas"
+              alt="poster de la película Death Proof"
+              width="100"
+            />
+          </div>
+          <h3>Death Proof (2007)</h3>
+          <p>
+            Es un homenaje al cine de explotación y las películas de autos de
+            los años 70, y forma parte del proyecto Grindhouse, una doble
+            función que Tarantino realizó junto con Robert Rodríguez. El
+            perturbado "Stuntman" Mike (Kurt Russell) utiliza su coche a prueba
+            de todo para acechar y matar a jóvenes mujeres. La historia muestra
+            a dos grupos de mujeres, cada uno enfrentándose a Mike en secuencias
+            de alta tensión y acción automovilística. Death Proof es conocida
+            por sus diálogos ingeniosos, personajes femeninos fuertes y por las
+            emocionantes persecuciones de autos, con un estilo visual que evoca
+            las películas de bajo presupuesto y las sesiones dobles de cine de
+            décadas pasadas.
+          </p>
+        </article>
+        <article>
+          <div>
+            <img
+              src="images/inglourious-basterds.jpg"
+              class="poster-peliculas"
+              alt="poster de la película Inglourious Basterds"
+              width="100"
+            />
+          </div>
+          <h3>Inglourious Basterds (2009)</h3>
+          <p>
+            Es una reinterpretación ficticia de la Segunda Guerra Mundial que
+            mezcla acción, drama y humor negro. La película sigue dos tramas
+            paralelas: un grupo de soldados estadounidenses judíos, liderados
+            por el teniente Aldo Raine (Brad Pitt), conocidos como los
+            "Bastardos", que cazan y asesinan a nazis en la Francia ocupada, y
+            la historia de Shosanna Dreyfus (Mélanie Laurent), una joven judía
+            que planea vengarse de los nazis tras la masacre de su familia. Con
+            una actuación estelar de Christoph Waltz como el cruel coronel Hans
+            Landa (un rol que lo llevó a ganar el Oscar), Inglourious Basterds
+            se destaca por sus tensas escenas de diálogo, su estilo visual audaz
+            y su original reescritura de la historia.
+          </p>
+        </article>
+      </div>
+      <div class="peliculas-en-linea">
+        <article>
+          <div>
+            <img
+              src="images/djangofinal.jpg"
+              class="poster-peliculas"
+              alt="poster de la película Django Unchained"
+              width="100"
+            />
+          </div>
+          <h3>Django Unchained (2012)</h3>
+          <p>
+            Es un western ambientado en el sur de Estados Unidos antes de la
+            Guerra Civil, que combina acción, humor negro y una cruda mirada al
+            tema de la esclavitud. La película sigue a Django (Jamie Foxx), un
+            esclavo liberado por el cazarrecompensas alemán Dr. King Schultz
+            (Christoph Waltz), quien lo ayuda a rescatar a su esposa Broomhilda
+            (Kerry Washington) de un brutal terrateniente llamado Calvin Candie
+            (Leonardo DiCaprio). Aclamada por sus intensas interpretaciones,
+            especialmente de Waltz y DiCaprio, Django Unchained se destaca por
+            su violenta representación de la venganza y sus audaces diálogos,
+            ganando dos premios Oscar, incluido el de mejor guion original para
+            Tarantino.
+          </p>
+        </article>
+        <article>
+          <div>
+            <img
+              src="images/hateful8.jpg"
+              class="poster-peliculas"
+              alt="poster de la película The Hateful Eight"
+              width="100"
+            />
+          </div>
+          <h3>The Hateful Eight (2015)</h3>
+          <p>
+            Es un western de misterio ambientado en la época posterior a la
+            Guerra Civil estadounidense. Ocho personajes, incluidos
+            cazarrecompensas, criminales y soldados, se refugian de una tormenta
+            de nieve en una mercería aislada en Wyoming. A medida que las
+            tensiones aumentan, la desconfianza entre ellos crece,
+            desencadenando traiciones y violencia. Con un elenco coral que
+            incluye a Samuel L. Jackson, Kurt Russell y Jennifer Jason Leigh, la
+            película se destaca por su ritmo pausado, los diálogos afilados de
+            Tarantino y su uso de la tensión claustrofóbica. Rodada en formato
+            Ultra Panavision 70, The Hateful Eight es visualmente impresionante
+            y profundiza en temas de venganza, racismo y justicia.
+          </p>
+        </article>
+        <article>
+          <div>
+            <img
+              src="images/onceupon.jpg"
+              class="poster-peliculas"
+              alt="poster de la película Once Upon a Time... in Hollywood (2019)"
+              width="100"
+            />
+          </div>
+          <h3>Once Upon a Time... in Hollywood (2019)</h3>
+          <p>
+            Es una carta de amor a la era dorada de Hollywood a finales de los
+            años 60, entrelazando la historia ficticia de Rick Dalton (Leonardo
+            DiCaprio), un actor de televisión en decadencia, y su doble de
+            acción Cliff Booth (Brad Pitt), con los trágicos eventos de la
+            familia Manson. La película combina nostalgia, humor y tensión
+            mientras Rick y Cliff navegan por una industria en cambio, al tiempo
+            que Sharon Tate (Margot Robbie) brilla como una promesa emergente.
+            Con su estilo visual evocador y referencias a la cultura pop de la
+            época, ofrece una reinterpretación de la historia real con el toque
+            único de Tarantino, culminando en un clímax violento y catártico.
+          </p>
+        </article>
+      </div>
     </section>
-    <section  id="proyectos">
-        <div class="listas">
-            <h2>Roles destacados en otros campos</h2>
-            <h3>Actor</h3>
-            <ul>
-                <li>Warren en Death Proof(2007)</li>
-                <li>Deacon en Little Nicky(2000)</li>
-                <li>Richard Gecko en From Dusk Till Dawn(1996)</li>
-                <li>Chester en Four Rooms(1995)</li>
-                <li>Jimmie en Pulp Fiction(1994)</li>
-                <li>Sid en Sleep With Me(1994)</li>
-                <li>Mr. Brown en Reservoir Dogs(1992)</li>
-            </ul>
-            <h3>Participación en cortometrajes</h3>
-            <ul>
-                <li>The Pimp(2022)</li>
-                <li>Reservoir Wolves(2001)</li>
-                <li>Dance Me to the End of Love(1995)</li>
-            </ul>
-            <h3>Guiones para otros directores</h3>
-            <ul>
-                <li>Four Rooms(1995)</li>
-                <li>Natural Born Killers(1994)</li>
-                <li>True Romance(1993)</li>
-            </ul>
-            <h3>Productor</h3>
-            <ul>
-                <li>Grindhouse(2007)</li>
-                <li>Hostel(2005)</li>
-                <li>From Dusk Till Dawn(1996)</li>
-                <li>Four Rooms(1995)</li>
-                <li>Killing Zoe(1993)</li>
-            </ul>
-            <h3>Participación en videojuegos</h3>
-            <ul>
-                <li>Reservoir Dogs(2006)</li>
-                <li>Steven Spielberg's Director Chair(1996)</li>
-            </ul>
-        </div>
+    <section id="proyectos">
+      <div class="listas">
+        <h2>Roles destacados en otros campos</h2>
+        <h3>Actor</h3>
+        <ul>
+          <li>Warren en Death Proof(2007)</li>
+          <li>Deacon en Little Nicky(2000)</li>
+          <li>Richard Gecko en From Dusk Till Dawn(1996)</li>
+          <li>Chester en Four Rooms(1995)</li>
+          <li>Jimmie en Pulp Fiction(1994)</li>
+          <li>Sid en Sleep With Me(1994)</li>
+          <li>Mr. Brown en Reservoir Dogs(1992)</li>
+        </ul>
+        <h3>Participación en cortometrajes</h3>
+        <ul>
+          <li>The Pimp(2022)</li>
+          <li>Reservoir Wolves(2001)</li>
+          <li>Dance Me to the End of Love(1995)</li>
+        </ul>
+        <h3>Guiones para otros directores</h3>
+        <ul>
+          <li>Four Rooms(1995)</li>
+          <li>Natural Born Killers(1994)</li>
+          <li>True Romance(1993)</li>
+        </ul>
+        <h3>Productor</h3>
+        <ul>
+          <li>Grindhouse(2007)</li>
+          <li>Hostel(2005)</li>
+          <li>From Dusk Till Dawn(1996)</li>
+          <li>Four Rooms(1995)</li>
+          <li>Killing Zoe(1993)</li>
+        </ul>
+        <h3>Participación en videojuegos</h3>
+        <ul>
+          <li>Reservoir Dogs(2006)</li>
+          <li>Steven Spielberg's Director Chair(1996)</li>
+        </ul>
+      </div>
     </section>
     <section id="libros">
-            <h2>Libros</h2>
-            <div class="libros-en-linea">
-                <article>
-                    <div>
-                        <img src="images/meditaciones.jpg" class="tapa-libros" alt="portada del libro Meditaciones de cine" width="100">
-                    </div>
-                    <h3>Meditaciones de cine</h3>
-                    <p>En su primer libro de no ficción, Tarantino analiza desde los puntos de vista más insólitos y con su particular conocimiento enciclopédico varias películas clave del cine norteamericano de los setenta, todas ellas vistas en su más tierna infancia (de las más violentas a las más tórridas), así como revisitadas compulsivamente. El resultado es una obra tan rigurosa y reflexiva como juguetona y entretenida.</p>
-                </article>
-                <article>
-                    <div>
-                        <img src="images/eraselibro.jpg" class="tapa-libros" alt="portada de la novela Erase una vez en Hollywood" width="100">
-                    </div>
-                    <h3>Novelas</h3>
-                    <p>Érase una vez en Hollywood es su debut en la literatura, una deliciosa y brutal primera novela. Así propone nuevas reglas para la novelización, pues logra voltear la historia que mostró en la gran pantalla. Todos los personajes, escenas y tramas que aquí ofrece -con diálogos y descripciones marca de la casa- no sólo expanden el universo fílmico de Tarantino sino que nos presentan a un narrador con un talento excepcional.</p>
-                </article>
-                <article>
-                    <div>
-                        <img src="images/basterdslibroguion.jpg" class="tapa-libros" alt="portada del libro del guión de la película Inglourious Basterds" width="100">
-                    </div>
-                    <h3>Guiones</h3>
-                    <p>Con dos premios Oscar al mejor guión original en su poder, Quentin Tarantino es también una referencia para cualquier aspirante a guionista en la industria del cine. Famoso por sus frenéticos y extraordinarios diálogos, y con una tendencia a escribir sus tratamientos y guiones como si fuesen novelas, no es de extrañar que las publicaciones de sus libretos sean muy solicitadas y las editoriales lo saben.</p>
-                </article>
-            </div>
+      <h2>Libros</h2>
+      <div class="libros-en-linea">
+        <article>
+          <div>
+            <img
+              src="images/meditaciones.jpg"
+              class="tapa-libros"
+              alt="portada del libro Meditaciones de cine"
+              width="100"
+            />
+          </div>
+          <h3>Meditaciones de cine</h3>
+          <p>
+            En su primer libro de no ficción, Tarantino analiza desde los puntos
+            de vista más insólitos y con su particular conocimiento
+            enciclopédico varias películas clave del cine norteamericano de los
+            setenta, todas ellas vistas en su más tierna infancia (de las más
+            violentas a las más tórridas), así como revisitadas compulsivamente.
+            El resultado es una obra tan rigurosa y reflexiva como juguetona y
+            entretenida.
+          </p>
+        </article>
+        <article>
+          <div>
+            <img
+              src="images/eraselibro.jpg"
+              class="tapa-libros"
+              alt="portada de la novela Erase una vez en Hollywood"
+              width="100"
+            />
+          </div>
+          <h3>Novelas</h3>
+          <p>
+            Érase una vez en Hollywood es su debut en la literatura, una
+            deliciosa y brutal primera novela. Así propone nuevas reglas para la
+            novelización, pues logra voltear la historia que mostró en la gran
+            pantalla. Todos los personajes, escenas y tramas que aquí ofrece
+            -con diálogos y descripciones marca de la casa- no sólo expanden el
+            universo fílmico de Tarantino sino que nos presentan a un narrador
+            con un talento excepcional.
+          </p>
+        </article>
+        <article>
+          <div>
+            <img
+              src="images/basterdslibroguion.jpg"
+              class="tapa-libros"
+              alt="portada del libro del guión de la película Inglourious Basterds"
+              width="100"
+            />
+          </div>
+          <h3>Guiones</h3>
+          <p>
+            Con dos premios Oscar al mejor guión original en su poder, Quentin
+            Tarantino es también una referencia para cualquier aspirante a
+            guionista en la industria del cine. Famoso por sus frenéticos y
+            extraordinarios diálogos, y con una tendencia a escribir sus
+            tratamientos y guiones como si fuesen novelas, no es de extrañar que
+            las publicaciones de sus libretos sean muy solicitadas y las
+            editoriales lo saben.
+          </p>
+        </article>
+      </div>
     </section>
     <section id="noticias">
-        <h2>Noticias</h2>
-        <div class="ultimas-noticias">
-            <article>
-                <h3>A Tarantino le gustaría hacer una serie</h3>
-                <p>Tras el éxito de Érase una vez en Hollywood, el cineasta desea reeditar la pelicula y convertirla en una miniserie destinada a exhibirse en un servicio de streaming. Al respecto, Tarantino no confirmó nada sobre esta versión extendida, pero indicó que dejó de lado mucho material para el corte final que fácilmente puede hacerse una versión de cuatro horas. No obstante Tarantino ha mencionado que la idea de realizar una serie le ha rondado en la cabeza desde los años 90.</p>
-            </article>
-            <article>
-                <h3>La ilusión de Kill Bill 3</h3>
-                <p>Taratino ha dicho que inicialmente imaginó la historia de Kill Bill como una trilogía. Más concretamente, como su propia "trilogia del dólar", en referencia a los tres westerns de Sergio Leone que obviamente tanto admira (Por un puñado de dólares, La muerte tenía un precio y El bueno, el malo y el feo). Después del estreno de Kill Bill 1 y 2, incluso se rumoreó acerca de dos secuelas, pero esta información nunca prosperó demasiado. Tarantino dijo después (en 2009) que Kill Bill 3 sería su novena película y que la historia estaría situada varios años después de la última, para "darle a Beatrix Kiddo y a su hija un período de tranquilidad". Más tarde (en 2012), estos planes se complicaron y Tarantino reconoció: "No sé si alguna vez habrá Kill Bill 3. Veremos, probablemente no".</p>
-            </article>
-            <article>
-                <h3>La película Argentina que cautivó a Quentin</h3>
-                <p>Argentina tiene una rica tradición cinematográfica, y entre sus obras hay una película que cautivó los corazones de dos de los cineastas más influyentes del mundo: Quentin Tarantino y Steven Spielberg. Esta joya no sólo fue elogiada por su increíble narrativa, sino por dejar también una marca en Hollywood. Con una trama intrigante y personajes complejos, "El Secreto de sus Ojos" es la cinta que logró seducir a estos directores internacionales. La película, dirigida por Juan José Campanella, obtuvo el Óscar a la mejor Película Extranjera en 2010.</p>
-            </article>
-        </div>
+      <h2>Noticias</h2>
+      <div class="ultimas-noticias">
+        <article>
+          <h3>A Tarantino le gustaría hacer una serie</h3>
+          <p>
+            Tras el éxito de Érase una vez en Hollywood, el cineasta desea
+            reeditar la pelicula y convertirla en una miniserie destinada a
+            exhibirse en un servicio de streaming. Al respecto, Tarantino no
+            confirmó nada sobre esta versión extendida, pero indicó que dejó de
+            lado mucho material para el corte final que fácilmente puede hacerse
+            una versión de cuatro horas. No obstante Tarantino ha mencionado que
+            la idea de realizar una serie le ha rondado en la cabeza desde los
+            años 90.
+          </p>
+        </article>
+        <article>
+          <h3>La ilusión de Kill Bill 3</h3>
+          <p>
+            Taratino ha dicho que inicialmente imaginó la historia de Kill Bill
+            como una trilogía. Más concretamente, como su propia "trilogia del
+            dólar", en referencia a los tres westerns de Sergio Leone que
+            obviamente tanto admira (Por un puñado de dólares, La muerte tenía
+            un precio y El bueno, el malo y el feo). Después del estreno de Kill
+            Bill 1 y 2, incluso se rumoreó acerca de dos secuelas, pero esta
+            información nunca prosperó demasiado. Tarantino dijo después (en
+            2009) que Kill Bill 3 sería su novena película y que la historia
+            estaría situada varios años después de la última, para "darle a
+            Beatrix Kiddo y a su hija un período de tranquilidad". Más tarde (en
+            2012), estos planes se complicaron y Tarantino reconoció: "No sé si
+            alguna vez habrá Kill Bill 3. Veremos, probablemente no".
+          </p>
+        </article>
+        <article>
+          <h3>La película Argentina que cautivó a Quentin</h3>
+          <p>
+            Argentina tiene una rica tradición cinematográfica, y entre sus
+            obras hay una película que cautivó los corazones de dos de los
+            cineastas más influyentes del mundo: Quentin Tarantino y Steven
+            Spielberg. Esta joya no sólo fue elogiada por su increíble
+            narrativa, sino por dejar también una marca en Hollywood. Con una
+            trama intrigante y personajes complejos, "El Secreto de sus Ojos" es
+            la cinta que logró seducir a estos directores internacionales. La
+            película, dirigida por Juan José Campanella, obtuvo el Óscar a la
+            mejor Película Extranjera en 2010.
+          </p>
+        </article>
+      </div>
     </section>
     <section id="reconocimientos">
-        <h2>Principales Reconocimientos</h2>
-        <div class="reconocimientos-container">
-            <a href="https://es.wikipedia.org/wiki/Óscar_al_mejor_guion_original" target="_blank" class="reconocimiento-link"></a>
-        </div>
-          <div class="reconocimiento">
+      <h2>Principales Reconocimientos</h2>
+      <div class="reconocimientos-container">
+        <div class="reconocimiento">
+          <a
+            href="https://es.wikipedia.org/wiki/Óscar_al_mejor_guion_original"
+            target="_blank"
+            class="reconocimiento-link"
+          >
             <h3>Oscar - Mejor Guion Original (Pulp Fiction)</h3>
-            <p>Ganado en 1995, este premio reconoció la singular narrativa no lineal y el innovador diálogo de la película.</p>
-          </div>
-        <a href="https://es.wikipedia.org/wiki/Palma_de_Oro" target="_blank" class="reconocimiento-link"></a>
-          <div class="reconocimiento">
+            <p>
+              Ganado <strong>en 1995</strong>, este premio reconoció la singular
+              narrativa no lineal y el innovador diálogo de la película.
+            </p>
+          </a>
+        </div>
+
+        <div class="reconocimiento">
+          <a
+            href="https://es.wikipedia.org/wiki/Palma_de_Oro"
+            target="_blank"
+            class="reconocimiento-link"
+          >
             <h3>Palma de Oro - Festival de Cannes (Pulp Fiction)</h3>
-            <p>Premio máximo en Cannes en 1994, consolidando su estatus como director de culto.</p>
-          </div>
-        <a href="https://es.wikipedia.org/wiki/Óscar_al_mejor_guion_original" target="_blank" class="reconocimiento-link"></a>
-          <div class="reconocimiento">
+            <p>
+              Premio máximo en Cannes <strong>en 1994</strong>, consolidando su
+              estatus como director de culto.
+            </p>
+          </a>
+        </div>
+
+        <div class="reconocimiento">
+          <a
+            href="https://es.wikipedia.org/wiki/Óscar_al_mejor_guion_original"
+            target="_blank"
+            class="reconocimiento-link"
+          >
             <h3>Oscar - Mejor Guion Original (Django Unchained)</h3>
-            <p>En 2012, ganó su segundo Oscar por esta mezcla de western y narrativa histórica.</p>
-          </div>
-        <a href="https://es.wikipedia.org/wiki/Globo_de_Oro_al_mejor_director" target="_blank" class="reconocimiento-link"></a>
-          <div class="reconocimiento">
-            <h3>Globo de Oro - Mejor Director (Once Upon a Time in Hollywood)</h3>
-            <p>En 2020, Tarantino fue premiado por su ingenioso guion que rinde homenaje al Hollywood de los años 60.</p>
-          </div>
-        <a href="https://es.wikipedia.org/wiki/Anexo:BAFTA_al_mejor_guion_original" target="_blank" class="reconocimiento-link"></a>
-          <div class="reconocimiento">
+            <p>
+              <strong>En 2012</strong>, ganó su segundo Oscar por esta mezcla de
+              western y narrativa histórica.
+            </p>
+          </a>
+        </div>
+      </div>
+
+      <div class="reconocimientos-container">
+        <div class="reconocimiento">
+          <a
+            href="https://es.wikipedia.org/wiki/Globo_de_Oro_al_mejor_director"
+            target="_blank"
+            class="reconocimiento-link"
+          >
+            <h3>
+              Globo de Oro - Mejor Director (Once Upon a Time in Hollywood)
+            </h3>
+            <p>
+              <strong>En 2020</strong>, Tarantino fue premiado por su ingenioso
+              guion que rinde homenaje al Hollywood de los años 60.
+            </p>
+          </a>
+        </div>
+
+        <div class="reconocimiento">
+          <a
+            href="https://es.wikipedia.org/wiki/Anexo:BAFTA_al_mejor_guion_original"
+            target="_blank"
+            class="reconocimiento-link"
+          >
             <h3>Premio BAFTA - Mejor Guion Original (Inglourious Basterds)</h3>
-            <p>Recibió este galardón en 2010 por su creativa reinterpretación de la Segunda Guerra Mundial.</p>
-          </div>
-        <a href="https://en.wikipedia.org/wiki/Critics%27_Choice_Movie_Award_for_Best_Screenplay" target="_blank" class="reconocimiento-link"></a>
-            <div class="reconocimiento">
-                <h3>Premio Critics' Choice - Mejor Guion (Django Unchained)</h3>
-                <p>En 2012, Tarantino fue reconocido por su innovador guion en este western revisionista.</p>
-            </div>
+            <p>
+              Recibió este galardón <strong>en 2010</strong> por su creativa
+              reinterpretación de la Segunda Guerra Mundial.
+            </p>
+          </a>
+        </div>
+
+        <div class="reconocimiento">
+          <a
+            href="https://en.wikipedia.org/wiki/Critics%27_Choice_Movie_Award_for_Best_Screenplay"
+            target="_blank"
+            class="reconocimiento-link"
+          >
+            <h3>Premio Critics' Choice - Mejor Guion (Django Unchained)</h3>
+            <p>
+              <strong>En 2012</strong>, Tarantino fue reconocido por su
+              innovador guion en este western revisionista.
+            </p>
+          </a>
+        </div>
+      </div>
     </section>
     <footer>
-        <section id="creditos">
-            <h2>Créditos</h2>
-            <div class="footer-en-linea">
-                <ul class="creditos-en-linea">
-                    <li><a href="mailto:cavilan@uade.edu.ar" class="sin-subrayado">Carlos Avilán</a></li>
-                    <li><a href="mailto:gmolinagomez@uade.edu.ar" class="sin-subrayado">Gonzalo Molina</a></li>
-                    <li><a href="mailto:pespinosa@uade.edu.ar" class="sin-subrayado">Pablo Espinoza</a></li>
-                </ul>
-                <div>
-                    <img src="images/collagehorizontal.jpg" class="footer-image" alt="arte con mezcla de personajes">
-                </div>
-            </div>
-        </section>
+      <section id="creditos">
+        <h2>Créditos</h2>
+        <div class="footer-en-linea">
+          <ul class="creditos-en-linea">
+            <li>
+              <a href="mailto:cavilan@uade.edu.ar" class="sin-subrayado"
+                >Carlos Avilán</a
+              >
+            </li>
+            <li>
+              <a href="mailto:gmolinagomez@uade.edu.ar" class="sin-subrayado"
+                >Gonzalo Molina</a
+              >
+            </li>
+            <li>
+              <a href="mailto:pespinosa@uade.edu.ar" class="sin-subrayado"
+                >Pablo Espinoza</a
+              >
+            </li>
+          </ul>
+          <div>
+            <img
+              src="images/collagehorizontal.jpg"
+              class="footer-image"
+              alt="arte con mezcla de personajes"
+            />
+          </div>
+        </div>
+      </section>
     </footer>
-</body>
+  </body>
 </html>
