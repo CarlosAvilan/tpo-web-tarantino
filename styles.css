@@ -8,6 +8,25 @@ body {
   font-style: normal;
 }
 
+/* Estilo de la scrollbar vertical */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #cdcdcd;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #8eb195;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #6a8b74;
+}
+/* ----- */
+
 /*estilos compartidos*/
 
 h3 {
@@ -363,6 +382,13 @@ footer {
 
   h1 {
     font-size: 1.4em;
+  }
+  /* ----- */
+
+  /* navbar */
+  .nav-img-title-container {
+    flex-direction: column;
+    gap: 10px;
   }
   /* ----- */
 }
