@@ -180,7 +180,21 @@ header h2 {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  padding: 10px;
+  padding: 20px;
+}
+
+.listas h2 {
+  margin-bottom: 10px;
+}
+
+.collage-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.collage-fotos {
+  margin-top: 90px;
 }
 
 /* fin seccion proyectos */
