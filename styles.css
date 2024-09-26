@@ -117,10 +117,10 @@ h1 {
   width: 140px;
   height: 30px;
   font-size: 0.9em;
+}
 
-  &:active {
+.buttons-nav li:active {
     transform: scale(0.9);
-  }
 }
 
 .buttons-nav a {
