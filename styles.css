@@ -208,7 +208,7 @@ h1 {
 .pelicula-info {
   position: absolute;
   top: 0;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.8);
   color: white;
   width: 300px;
   height: 450px;
@@ -234,20 +234,33 @@ h1 {
 
 /* seccion proyectos */
 #proyectos {
+  position: relative;
   width: 100%;
   background: url("images/collage1.jpg") no-repeat center/cover;
   margin-bottom: 30px;
 }
 
+#proyectos::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8); /* Capa negra semi-transparente */
+  z-index: 1;
+}
+
 .listas {
+  position: relative;
   padding: 20px;
   width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
-  background: rgba(0, 0, 0, 0.5);
   color: white;
   overflow: auto;
+  z-index: 2;
 }
 
 .listas h2 {
@@ -351,7 +364,7 @@ h1 {
 }
 
 .footer-container {
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.8);
   width: 100%;
   height: 100%;
   padding: 20px;
