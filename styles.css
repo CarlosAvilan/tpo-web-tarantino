@@ -311,7 +311,6 @@ h1 {
 
 .ultimas-noticias article {
   margin: 10px 30px;
-  text-align: justify;
 }
 /* fin seccion noticias */
 
@@ -366,7 +365,6 @@ h1 {
   width: 100%;
   background: url("images/collagehorizontal.jpg") no-repeat center center/cover;
   color: white;
-  text-align: center;
 }
 
 .footer-container {
@@ -381,6 +379,13 @@ h1 {
   color: white;
 }
 
+.list-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 .names-list {
   list-style: none;
   padding: 0;
@@ -390,9 +395,13 @@ h1 {
   margin: 10px 0;
 }
 
+.names-list li p {
+  margin: 10px 0;
+}
+
 .names-list li a {
   text-decoration: none;
-  color: rgb(223, 217, 217);
+  color: #ffffff;
 }
 /* fin seccion creditos*/
 
