@@ -167,6 +167,13 @@ h1 {
   font-size: 0.8em;
   max-width: 210px;
 }
+
+#botonLeerMas {
+  border: none;
+  color: #ff6347;
+  font-size: 1.1em;
+  cursor: pointer;
+}
 /* fin seccion historia */
 
 /* seccion peliculas */
