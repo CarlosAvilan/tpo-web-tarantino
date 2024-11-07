@@ -170,6 +170,7 @@ h1 {
 
 #botonLeerMas {
   border: none;
+  text-decoration: underline;
   color: #ff6347;
   font-size: 1.1em;
   cursor: pointer;
