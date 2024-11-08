@@ -281,7 +281,21 @@ h1 {
   color: white;
 }
 
+.botonLista {
+  cursor: pointer;
+}
+
+.flecha {
+  display: inline-block;
+  transition: transform 0.15s ease;
+}
+
+.botonLista.active .flecha {
+  transform: rotate(90deg);
+}
+
 .listas ul {
+  display: none;
   margin-bottom: 20px;
 }
 

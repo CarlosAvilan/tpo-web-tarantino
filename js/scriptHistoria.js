@@ -1,3 +1,4 @@
+'use strict';
 
 //Botón para ocultar y mostrar el texto completo de la sección Historia
 
