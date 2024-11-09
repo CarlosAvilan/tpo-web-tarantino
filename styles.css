@@ -251,6 +251,8 @@ h1 {
   width: 100%;
   background: url("images/collage1.jpg") no-repeat center/cover;
   margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
 }
 
 #proyectos::before {
@@ -264,10 +266,12 @@ h1 {
   z-index: 1;
 }
 
-.listas {
+.listas, .busqueda {
   position: relative;
   padding: 20px;
-  width: 100%;
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -276,9 +280,23 @@ h1 {
   z-index: 2;
 }
 
-.listas h2 {
+.listas h2, .busqueda h2 {
   margin-bottom: 10px;
   color: white;
+}
+
+.busqueda p {
+  font-style: italic;
+  color: lightgrey;
+}
+
+.actor-item {
+  list-style-type: none;
+  color: #ff6347;
+}
+
+.rol-item {
+  margin-left: 30px;
 }
 
 .botonLista {
