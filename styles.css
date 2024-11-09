@@ -285,7 +285,7 @@ h1 {
   color: white;
 }
 
-.busqueda p {
+.listas p, .busqueda p {
   font-style: italic;
   color: lightgrey;
 }
