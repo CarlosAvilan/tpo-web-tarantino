@@ -252,6 +252,7 @@ h1 {
   background: url("images/collage1.jpg") no-repeat center/cover;
   margin-bottom: 30px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -269,12 +270,8 @@ h1 {
 .listas, .busqueda {
   position: relative;
   padding: 20px;
-  width: 40%;
-  margin-left: 5%;
-  margin-right: 5%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
+  flex: 1;
+  margin: 10px;
   color: white;
   overflow: auto;
   z-index: 2;
@@ -320,6 +317,31 @@ h1 {
 .listas li {
   margin-bottom: 5px;
   list-style: none;
+}
+
+#formulario {
+  display: flex;
+  gap: 10px;
+}
+
+#inputBusqueda {
+  width: 75%;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+#formulario button {
+  width: 25%;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  background-color: #ff6347;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+  font-size: 16px;
 }
 /* fin seccion proyectos */
 
@@ -458,6 +480,20 @@ h1 {
   /* ----- */
 }
 
+@media screen and (max-width: 900px) {
+  /* proyectos */
+  #proyectos {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .listas, .busqueda {
+    width: 90%;
+    margin: 0 auto;
+  }
+  /* ----- */
+};
+
 @media screen and (max-width: 768px) {
   /*estilos compartidos*/
   h3 {
@@ -518,6 +554,22 @@ h1 {
   .nav-img-title-container {
     flex-direction: column;
     gap: 10px;
+  }
+  /* ----- */
+  
+  /* proyectos */
+  #proyectos {
+    flex-direction: column;
+  }
+
+  #inputBusqueda, #formulatio button {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  .listas, .busqueda {
+    padding: 15px;
   }
   /* ----- */
 }
