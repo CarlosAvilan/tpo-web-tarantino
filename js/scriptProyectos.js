@@ -65,7 +65,7 @@ formulario.addEventListener("submit", (e) => {
         }
     } else {
         //Si el usuario hace click en buscar, pero no ha escrito texto para buscar
-        resultadosBusqueda.innerHTML = "<p>Ingrese un actor para la búsqueda</p>";
+        resultadosBusqueda.innerHTML = "<p>Ingrese un nombre y/o apellido para la búsqueda</p>";
     }
 });
 
