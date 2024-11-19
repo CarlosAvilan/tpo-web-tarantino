@@ -584,6 +584,10 @@ h1 {
   /* ----- */
 
   /* noticias */
+  .ultimas-noticias h3 {
+    text-align: center;
+  }
+
   .contenido {
     flex-direction: column;
     align-items: center;
