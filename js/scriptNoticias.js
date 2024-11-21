@@ -15,9 +15,6 @@ const leyendas = [
 
 for (let i=0; i < botonesGaleria.length; i++) {
     botonesGaleria[i].addEventListener("click", () => {
-        
-        // let galeria = galerias[i];
-        // let leyenda = leyendas[i];
 
         let modal = document.createElement("div");
         modal.setAttribute("id", "modal");

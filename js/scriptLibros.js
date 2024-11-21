@@ -4,7 +4,6 @@ import { libros } from "../datos/libros.js";
 
 function renderizarLibros() {
     const librosContainer = document.getElementById("libros-container");
-    console.log(libros);
 
     librosContainer.innerHTML = '';
 

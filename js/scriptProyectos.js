@@ -5,7 +5,6 @@ const titulos = document.querySelectorAll(".botonLista");
 
 for (let titulo of titulos) {
     titulo.addEventListener("click", () => {
-        // const listas = document.querySelectorAll(".listas ul");
         let lista = titulo.nextElementSibling;
         
         lista.style.display = lista.style.display === "block" ? "none" : "block";
